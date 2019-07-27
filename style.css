@@ -1,7 +1,7 @@
-#box1 {
+#box1, #box2, #box3 {
     width: 100px;
     height:100px;
-    background-color: #eee;
+    background-color: rgb(182, 26, 26);
 }
 
 .gold {

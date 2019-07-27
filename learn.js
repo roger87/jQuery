@@ -12,6 +12,21 @@ $(document).ready(function () {
     $("h2").hide();
 
     $("#box1").addClass("gold");
+
+    $("#box2").slideUp(2000).slideDown(3000);
+
+    $("#box3").mouseenter(function () { 
+        
+        $(this).animate({width: "200px", height: "200px"}, 2000);
+    });
+
+    $("#box3").mouseout(function () { 
+        
+        $(this).animate({width: "100px", height: "100px"}, 2000);
+    });
+
+    
+
 });
 
 function A () {
