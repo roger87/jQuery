@@ -42,4 +42,4 @@ scrollToPosition("#a5","#section5", 1000);
             $("#btnTop").fadeOut(500);
         }
     });
-})
+});
